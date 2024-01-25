@@ -14,13 +14,10 @@ const FormVagas = ({ aoPesquisar }: Props) => {
   }
 
   return (
-    <FromList onSubmit={aoEnviarForm}>
+    <FromList >
       <Campo
-        placeholder="Front-end, fullstack, node, design"
-        onChange={(e) => setTermo(e.target.value)}
-        type="search"
       />
-      <BtnPesquisar type="submit">
+      <BtnPesquisar>
         Pesquisar
       </BtnPesquisar>
     </FromList>
